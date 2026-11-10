@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hope Okoko — Computer Science student exploring cloud technologies, DevOps, and creative problem-solving."
+    />
+    <meta name="author" content="Hope Okoko" />
+    <title>Hope Okoko — Portfolio</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230a0f1f'/><text x='16' y='22' font-family='Arial,sans-serif' font-size='17' font-weight='700' fill='%23a78bfa' text-anchor='middle'>H</text></svg>"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#home">Skip to content</a>
+
+    <!-- ============ HEADER / NAV ============ -->
+    <header class="site-header" id="top">
+      <div class="container nav">
+        <a class="brand" href="#home" aria-label="Hope Okoko — home">
+          <span class="brand-mark" aria-hidden="true">HO</span>
+          <span class="brand-name">Hope Okoko</span>
+        </a>
+
+        <nav aria-label="Primary">
+          <button
+            class="nav-toggle"
+            aria-expanded="false"
+            aria-controls="nav-list"
+            aria-label="Toggle navigation menu"
+          >
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </button>
+
+          <ul class="nav-list" id="nav-list">
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li><a class="nav-link" href="#learning">Learning</a></li>
+            <!-- Projects link — hidden until you're ready to show projects. Remove the "hidden" attribute on this <li> to reveal it. -->
+            <li hidden><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#experience">Experience</a></li>
+            <li><a class="nav-link" href="#superpower">Superpower</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============ HOME / HERO ============ -->
+      <section id="home" class="hero">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <p class="hero-eyebrow reveal">Hello, I'm</p>
+          <h1 class="hero-name reveal">Hope Okoko</h1>
+          <p class="hero-role reveal">Computer Science Student · Cloud &amp; DevOps Enthusiast</p>
+          <p class="hero-text reveal">
+            Curious about how things run behind the scenes — from cloud
+            infrastructure to the people who bring ideas to life. I like clean
+            systems, good questions, and problems worth solving.
+          </p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#learning">See My Journey</a>
+            <a class="btn btn-ghost" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section id="about" class="section about">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">About Me</p>
+            <h2 class="section-title">A bit about me</h2>
+          </header>
+          <div class="about-grid">
+            <div class="about-text reveal">
+              <p>
+                Hope Okoko is a Computer Science student drawn to the space
+                where infrastructure meets creativity. She's exploring cloud
+                technologies and DevOps — AWS, Linux, Docker, and CI/CD —
+                while bringing the same energy to events, community work, and
+                creative problem-solving.
+              </p>
+              <p>
+                Whether it's automating a deployment or coordinating an event,
+                the throughline is the same: break the problem down, keep it
+                human, and build something that lasts.
+              </p>
+            </div>
+            <ul class="about-highlights reveal">
+              <li><span>Curious by default</span></li>
+              <li><span>Cloud &amp; DevOps focused</span></li>
+              <li><span>Community-minded</span></li>
+              <li><span>Likes a good challenge</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SKILLS ============ -->
+      <section id="skills" class="section skills">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Technical Skills</p>
+            <h2 class="section-title">Tools &amp; technologies</h2>
+            <p class="section-sub">The building blocks I'm growing with.</p>
+          </header>
+          <div class="skills-grid">
+            <div class="skill-group reveal">
+              <h3 class="skill-group-title">Cloud &amp; Infrastructure</h3>
+              <ul class="chips">
+                <li class="chip">AWS</li>
+                <li class="chip">Linux</li>
+                <li class="chip">Cloud Networking</li>
+              </ul>
+            </div>
+            <div class="skill-group reveal">
+              <h3 class="skill-group-title">DevOps &amp; Tooling</h3>
+              <ul class="chips">
+                <li class="chip">Docker</li>
+                <li class="chip">CI/CD</li>
+                <li class="chip">Git &amp; GitHub</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ MY LEARNING JOURNEY ============ -->
+      <!-- Currently learning topics. No completed projects, certifications or achievements are claimed here. -->
+      <section id="learning" class="section learning">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Learning Journey</p>
+            <h2 class="section-title">My Learning Journey</h2>
+            <p class="section-sub">
+              I haven't shipped major projects yet — here's what I'm actively
+              building my understanding in.
+            </p>
+          </header>
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="project-top">
+                <span class="project-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17.5 18a4.5 4.5 0 0 0 0-9 6 6 0 0 0-11.4 1.5A4 4 0 0 0 6 18z" />
+                  </svg>
+                </span>
+                <span class="learning-badge">Currently Learning</span>
+              </div>
+              <h3 class="project-title">Cloud Computing &amp; AWS</h3>
+              <p class="project-desc">
+                Exploring AWS services, cloud infrastructure and deployment
+                fundamentals.
+              </p>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-top">
+                <span class="project-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="6" y1="3" x2="6" y2="15" />
+                    <circle cx="18" cy="6" r="3" />
+                    <circle cx="6" cy="18" r="3" />
+                    <path d="M18 9a9 9 0 0 1-9 9" />
+                  </svg>
+                </span>
+                <span class="learning-badge">Currently Learning</span>
+              </div>
+              <h3 class="project-title">DevOps &amp; Development Tools</h3>
+              <p class="project-desc">
+                Building my understanding of Git, GitHub, Docker and CI/CD
+                workflows.
+              </p>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-top">
+                <span class="project-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="4" width="20" height="16" rx="2" />
+                    <polyline points="6 9 9 12 6 15" />
+                    <line x1="12" y1="15" x2="17" y2="15" />
+                  </svg>
+                </span>
+                <span class="learning-badge">Currently Learning</span>
+              </div>
+              <h3 class="project-title">Linux &amp; Cloud Networking</h3>
+              <p class="project-desc">
+                Learning Linux fundamentals, networking concepts, DNS, HTTP/HTTPS
+                and SSH.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           PROJECTS — currently HIDDEN (kept in reserve for later)
+           This section is hidden from visitors. When you have real projects
+           to show, activate it in TWO places:
+             1. Remove the "hidden" attribute from this <section> tag.
+             2. Remove the "hidden" attribute from the Projects <li> in the nav
+                above (search for: <li hidden><a class="nav-link" href="#projects")
+           Then replace each card's "Project Title", description and tags with
+           your own project details.
+           =================================================================== -->
+      <section id="projects" class="section projects" hidden>
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Projects</p>
+            <h2 class="section-title">Things I've built</h2>
+            <p class="section-sub">
+              A selection of projects I've worked on.
+            </p>
+          </header>
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="project-top">
+                <span class="project-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                  </svg>
+                </span>
+              </div>
+              <h3 class="project-title">Project Title</h3>
+              <p class="project-desc">
+                A short description of what this project does and the problem it
+                solves. Replace this with your own project details.
+              </p>
+              <ul class="project-tags">
+                <li>Tag</li>
+                <li>Tag</li>
+                <li>Tag</li>
+              </ul>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-top">
+                <span class="project-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                  </svg>
+                </span>
+              </div>
+              <h3 class="project-title">Project Title</h3>
+              <p class="project-desc">
+                A short description of what this project does and the problem it
+                solves. Replace this with your own project details.
+              </p>
+              <ul class="project-tags">
+                <li>Tag</li>
+                <li>Tag</li>
+                <li>Tag</li>
+              </ul>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-top">
+                <span class="project-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                  </svg>
+                </span>
+              </div>
+              <h3 class="project-title">Project Title</h3>
+              <p class="project-desc">
+                A short description of what this project does and the problem it
+                solves. Replace this with your own project details.
+              </p>
+              <ul class="project-tags">
+                <li>Tag</li>
+                <li>Tag</li>
+                <li>Tag</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ EXPERIENCE ============ -->
+      <!-- Reflects genuine experience areas from the plan. No invented job titles, organisations or dates. -->
+      <section id="experience" class="section experience">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Experience</p>
+            <h2 class="section-title">Where I've put energy</h2>
+            <p class="section-sub">
+              Areas I've worked in — event strategy, social, volunteering and
+              community.
+            </p>
+          </header>
+          <div class="experience-grid">
+            <article class="exp-card reveal">
+              <span class="exp-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="4" y="5" width="16" height="16" rx="2" />
+                  <path d="M8 3v4M16 3v4M4 10h16" />
+                </svg>
+              </span>
+              <h3 class="exp-title">Event Strategy</h3>
+              <p class="exp-desc">
+                Shaping an event from concept to plan — programme, goals, and
+                how each part connects.
+              </p>
+            </article>
+
+            <article class="exp-card reveal">
+              <span class="exp-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 12a8 8 0 0 1-11.3 7.3L4 21l1.7-5.7A8 8 0 1 1 21 12z" />
+                </svg>
+              </span>
+              <h3 class="exp-title">Social Media Management</h3>
+              <p class="exp-desc">
+                Building presence and engagement — content, scheduling, and
+                keeping a community talking.
+              </p>
+            </article>
+
+            <article class="exp-card reveal">
+              <span class="exp-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z" />
+                </svg>
+              </span>
+              <h3 class="exp-title">Event Volunteering</h3>
+              <p class="exp-desc">
+                Supporting events on the ground — setup, coordination, and
+                helping the day run smoothly.
+              </p>
+            </article>
+
+            <article class="exp-card reveal">
+              <span class="exp-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="9" cy="8" r="3.5" />
+                  <path d="M3.5 20c0-3.6 2.5-6 5.5-6s5.5 2.4 5.5 6" />
+                  <path d="M16 11l2 2 4-4" />
+                </svg>
+              </span>
+              <h3 class="exp-title">Guest Management</h3>
+              <p class="exp-desc">
+                Coordinating speakers, attendees and guest experience so everyone
+                feels looked after.
+              </p>
+            </article>
+
+            <article class="exp-card reveal">
+              <span class="exp-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="8" cy="9" r="3" />
+                  <path d="M2 19c0-3.3 2.7-5 6-5s6 1.7 6 5" />
+                  <circle cx="17" cy="8" r="2.5" />
+                  <path d="M16 14c2.8 0 5 1.5 5 4.5" />
+                </svg>
+              </span>
+              <h3 class="exp-title">Community Involvement</h3>
+              <p class="exp-desc">
+                Engaging with communities and creating space for people to
+                connect and contribute.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ MY SUPERPOWER ============ -->
+      <section id="superpower" class="section superpower">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Creative Feature</p>
+            <h2 class="section-title">My Superpower</h2>
+            <p class="section-sub">
+              Every problem has a way through. Explore the facets to see how I
+              find it.
+            </p>
+          </header>
+
+          <div class="facet-grid reveal" role="tablist" aria-label="My Superpower facets">
+            <button class="facet is-active" role="tab" id="tab-strategist" aria-controls="panel-strategist" aria-selected="true">
+              <span class="facet-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="9" />
+                  <circle cx="12" cy="12" r="5" />
+                  <circle cx="12" cy="12" r="1.6" fill="currentColor" stroke="none" />
+                </svg>
+              </span>
+              <span class="facet-name">The Strategist</span>
+              <span class="facet-tag">Problem-solving</span>
+            </button>
+
+            <button class="facet" role="tab" id="tab-builder" aria-controls="panel-builder" aria-selected="false" tabindex="-1">
+              <span class="facet-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="4" y="4" width="16" height="6" rx="1.5" />
+                  <rect x="4" y="14" width="16" height="6" rx="1.5" />
+                  <line x1="7.5" y1="7" x2="7.6" y2="7" />
+                  <line x1="7.5" y1="17" x2="7.6" y2="17" />
+                </svg>
+              </span>
+              <span class="facet-name">The Builder</span>
+              <span class="facet-tag">Cloud &amp; DevOps</span>
+            </button>
+
+            <button class="facet" role="tab" id="tab-connector" aria-controls="panel-connector" aria-selected="false" tabindex="-1">
+              <span class="facet-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="8" cy="9" r="3" />
+                  <path d="M2 19c0-3.3 2.7-5 6-5s6 1.7 6 5" />
+                  <circle cx="17" cy="8" r="2.5" />
+                  <path d="M16 14c2.8 0 5 1.5 5 4.5" />
+                </svg>
+              </span>
+              <span class="facet-name">The Connector</span>
+              <span class="facet-tag">People &amp; community</span>
+            </button>
+
+            <button class="facet" role="tab" id="tab-learner" aria-controls="panel-learner" aria-selected="false" tabindex="-1">
+              <span class="facet-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 5.5C4 4.7 4.7 4 5.5 4H11v15H5.5C4.7 19 4 18.3 4 17.5z" />
+                  <path d="M20 5.5C20 4.7 19.3 4 18.5 4H13v15h5.5c.8 0 1.5-.7 1.5-1.5z" />
+                </svg>
+              </span>
+              <span class="facet-name">The Learner</span>
+              <span class="facet-tag">Always growing</span>
+            </button>
+          </div>
+
+          <div class="facet-panels">
+            <div class="facet-panel is-active" role="tabpanel" id="panel-strategist" aria-labelledby="tab-strategist" aria-hidden="false">
+              <h3 class="panel-title">The Strategist</h3>
+              <p>
+                I like to understand a problem before I touch it. I break it
+                into pieces, look for the simplest path, and plan before I
+                build. Strategy isn't about having all the answers — it's about
+                asking the right questions and staying flexible when things
+                change.
+              </p>
+              <ul class="facet-points">
+                <li>Break problems down, then prioritise</li>
+                <li>Plan the path, but stay ready to adapt</li>
+                <li>Keep solutions simple and maintainable</li>
+              </ul>
+            </div>
+
+            <div class="facet-panel" role="tabpanel" id="panel-builder" aria-labelledby="tab-builder" aria-hidden="true">
+              <h3 class="panel-title">The Builder</h3>
+              <p>
+                This is where I get hands-on with cloud and DevOps — AWS, Linux,
+                Docker, CI/CD and Git. I enjoy the craft of making things run
+                reliably: automating the boring parts, shipping cleanly, and
+                understanding what happens behind the scenes.
+              </p>
+              <ul class="facet-points">
+                <li>Cloud infrastructure &amp; networking</li>
+                <li>Containers, CI/CD and automation</li>
+                <li>Version control with Git &amp; GitHub</li>
+              </ul>
+            </div>
+
+            <div class="facet-panel" role="tabpanel" id="panel-connector" aria-labelledby="tab-connector" aria-hidden="true">
+              <h3 class="panel-title">The Connector</h3>
+              <p>
+                Technology is better when it brings people together. Through
+                event strategy, social media and community work, I've learned
+                that the human side matters — clear communication, looking after
+                guests, and creating space for people to contribute.
+              </p>
+              <ul class="facet-points">
+                <li>Event strategy &amp; guest management</li>
+                <li>Social media &amp; community engagement</li>
+                <li>Volunteering and on-the-day coordination</li>
+              </ul>
+            </div>
+
+            <div class="facet-panel" role="tabpanel" id="panel-learner" aria-labelledby="tab-learner" aria-hidden="true">
+              <h3 class="panel-title">The Learner</h3>
+              <p>
+                I'm a student in the best sense — curious and always adding to
+                the toolkit. New tools, new ideas, and hard problems are
+                exciting, not intimidating. I'd rather understand something
+                deeply than move on too quickly.
+              </p>
+              <ul class="facet-points">
+                <li>Curiosity over comfort</li>
+                <li>Learn the why, not just the how</li>
+                <li>Turn new skills into real projects</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <!-- Contact links. Email opens the visitor's mail client; LinkedIn and
+           GitHub open in a new tab. If your details change, update the href and
+           the visible text together so they stay in sync. -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">Contact</p>
+            <h2 class="section-title">Let's connect</h2>
+            <p class="section-sub">
+              Open to conversations, collaboration and opportunities.
+            </p>
+          </header>
+          <div class="contact-grid">
+            <a class="contact-card reveal" href="mailto:hopeoko06.com@gmail.com">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="5" width="18" height="14" rx="2" />
+                  <polyline points="3 7 12 13 21 7" />
+                </svg>
+              </span>
+              <span class="contact-label">Email</span>
+              <span class="contact-value">hopeoko06.com@gmail.com</span>
+            </a>
+
+            <a class="contact-card reveal" href="https://www.linkedin.com/in/hope-okoko-09186b394/" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M4.98 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V21H17v-5.3c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21H9z" />
+                </svg>
+              </span>
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">https://www.linkedin.com/in/hope-okoko-09186b394/</span>
+            </a>
+
+            <a class="contact-card reveal" href="https://github.com/Holy-06" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2C6.5 2 2 6.6 2 12.2c0 4.5 2.9 8.3 6.8 9.6.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-4.9 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1 .8-.2 1.7-.3 2.5-.3s1.7.1 2.5.3c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.8-2.3 4.6-4.6 4.9.4.3.7 1 .7 2v3c0 .3.2.6.7.5 3.9-1.3 6.8-5.1 6.8-9.6C22 6.6 17.5 2 12 2z" />
+                </svg>
+              </span>
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">https://github.com/Holy-06</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-text">Designed &amp; built by Hope Okoko</p>
+        <a class="footer-top" href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
